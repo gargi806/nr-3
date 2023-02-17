@@ -1,0 +1,63 @@
+#title{
+background-color: brown;
+
+}
+
+
+
+.header{
+    background-color: yellow;
+    max-height: 100px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.mainLogo{
+    
+    max-height: 100px;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    height : 40px;
+    width : 40px;
+    padding : 10px;
+  }
+
+.searchBar{
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+    display: flex;
+}
+
+.searchBar > input{
+    height:25px;
+    width:200px;
+    border:none;
+    border-radius: 5px;
+}
+
+.searchBar > button{
+    height:25px;
+    background-color: burlywood;
+    border:none;
+    border-radius: 5px;
+    
+}
+
+.user-icon>img{
+    height:33px;
+    width:33px;
+    padding-top: 12px;
+    
+}
+
+
+
+
+
